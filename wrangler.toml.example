@@ -1,0 +1,11 @@
+name = "learning-app"
+compatibility_date = "2026-03-07"
+
+[vars]
+SUPABASE_URL = "https://YOUR_PROJECT.supabase.co"
+R2_PUBLIC_BASE_URL = "https://YOUR_PUBLIC_BUCKET_DOMAIN"
+
+[[r2_buckets]]
+binding = "READING_IMAGES_BUCKET"
+bucket_name = "reading-images"
+preview_bucket_name = "reading-images-preview"
